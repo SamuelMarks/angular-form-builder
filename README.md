@@ -7,7 +7,6 @@ This is an AngularJS form builder written in [CoffeeScript](http://coffeescript.
 
 
 
-
 ##Frameworks
 1. [AngularJS](http://angularjs.org/) 1.2.14
 2. [jQuery](http://jquery.com/) 1.11.0, 2.1.0
@@ -15,6 +14,18 @@ This is an AngularJS form builder written in [CoffeeScript](http://coffeescript.
 4. [angular-validator](https://github.com/kelp404/angular-validator)
 
 
+
+##Development
+```bash
+# grab the submodules
+$ git submodule update --init
+# install node modules
+$ npm install
+```
+```bash
+# run the local server and the file watcher to compile CoffeeScript
+$ grunt dev
+```
 
 
 ##$builder
@@ -282,20 +293,6 @@ a.directive 'fbForm', fbForm
 ```bash
 $ grunt test
 ```
-
-
-
-
-##Development
-```bash
-# install node modules
-$ npm install
-```
-```bash
-# run the local server and the file watcher to compile CoffeeScript
-$ grunt dev
-```
-
 
 
 
