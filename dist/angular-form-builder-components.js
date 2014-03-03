@@ -108,10 +108,6 @@
                                  "<label class='control-label'>Description</label>\n" +
                                  "<input type='text' ng-model=\"description\" class='form-control'/>\n" +
                                  "</div>\n" +
-                                 "<div class=\"form-group\">\n" +
-                                 "<label class='control-label'>Placeholder</label>\n" +
-                                 "<input type='text' ng-model=\"placeholder\" class='form-control'/>\n" +
-                                 "</div>\n" +
                                  "<div class=\"checkbox\">\n" +
                                  "<label>\n" +
                                  "<input type='checkbox' ng-model=\"required\" />\n" +
