@@ -50,10 +50,6 @@
                                          <label class='control-label'>Description</label> \
                                          <input type='text' ng-model=\"description\" class='form-control'/> \
                                      </div>\
-                                     <div class=\"form-group\">   \
-                                          <label class='control-label'>Options</label> \
-                                          <textarea class=\"form-control\" rows=\"3\" ng-model=\"optionsText\"/>   \
-                                     </div>  \
                                      <div class=\"checkbox\">     \
                                          <label>     \
                                              <input type='checkbox' ng-model=\"required\" />     \
@@ -144,10 +140,6 @@
                                          <label class='control-label'>Description</label> \
                                          <input type='text' ng-model=\"description\" class='form-control'/> \
                                      </div>\
-                                     <div class=\"form-group\">   \
-                                          <label class='control-label'>Options</label> \
-                                          <textarea class=\"form-control\" rows=\"3\" ng-model=\"optionsText\"/>   \
-                                     </div>  \
                                      <div class=\"checkbox\">     \
                                          <label>     \
                                              <input type='checkbox' ng-model=\"required\" />     \
